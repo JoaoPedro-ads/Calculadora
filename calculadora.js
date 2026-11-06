@@ -34,9 +34,8 @@ break;
 default:                
 resultado = "Operação inválida";       
  }                   
-    
-document.getElementById("resultado").innerText = `Resultado: ${resultado}`;   
-} 
+document.getElementById("resultado").innerText = `Resultado: ${resultado}`;    
+}
 catch (error) {        
 } 
 document.getElementById("resultado").innerText = `Erro: ${error.message}`;       
